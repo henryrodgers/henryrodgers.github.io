@@ -4,7 +4,6 @@ This website is the front-end of the Special Topics Data Visualization project, 
 
 Thank you for your interest in our project. At this time, it is in the early stages of development. Please return later for more information!
 
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -35,8 +34,27 @@ Thank you for your interest in our project. At this time, it is in the early sta
     </script>
   </head>
   <body>
-    <h1>Simple Mapquest example</h1>
+    <h2>Mapquest API Test</h2>
 
     <div id="map"></div>
   </body>
 </html>
+
+<h2>Table Visualization Test</h2>
+<table>
+  <tr>
+    <th>C1</th>
+    <th>C1</th>
+    <th>C1</th>
+  </tr>
+  <tr>
+    <td>Test 1</td>
+    <td>Test 2</td>
+    <td>Test 3</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
