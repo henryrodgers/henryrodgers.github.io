@@ -4,11 +4,39 @@ This website is the front-end of the Special Topics Data Visualization project, 
 
 Thank you for your interest in our project. At this time, it is in the early stages of development. Please return later for more information!
 
-<script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
-<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapquest example</title>
+    <style>
+      #map {
+        width: 600px;
+        height: 600px;
+      }
+    </style>
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <script>
+      // 1. The basic part of the example
+      var L;
 
-let map = L.mapquest.map('map', {
-  center: [53.480759, -2.242631],
-  layers: L.mapquest.tileLayer('map'),
-  zoom: 12
-});
+      window.onload = function() {
+        L.mapquest.key = 'Kkulaafxam9iXADKMFedCV9JsENBp7Yc';
+
+        // 'map' refers to a <div> element with the ID map
+        var map = L.mapquest.map('map', {
+          center: [53.480759, -2.242631],
+          layers: L.mapquest.tileLayer('map'),
+          zoom: 12
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Simple Mapquest example</h1>
+
+    <div id="map"></div>
+  </body>
+</html>
