@@ -27,7 +27,7 @@ Thank you for your interest in our project. At this time, it is in the early sta
 
         // 'map' refers to a <div> element with the ID map
         var map = L.mapquest.map('map', {
-          center: [53.480759, -2.242631],
+          center: [47.604325816529375, -122.1713779290056],
           layers: L.mapquest.tileLayer('map'),
           zoom: 12
         });
