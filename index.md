@@ -6,3 +6,9 @@ Thank you for your interest in our project. At this time, it is in the early sta
 
 <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
 <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+let map = L.mapquest.map('map', {
+  center: [53.480759, -2.242631],
+  layers: L.mapquest.tileLayer('map'),
+  zoom: 12
+});
