@@ -1,8 +1,14 @@
 ---
-title: Map
+title: Home
 layout: template
-filename: Map.md
+filename: index.md
 --- 
+
+## Welcome to Our Website!
+
+This website is the front-end of the Special Topics Data Visualization project, which can be found here: [https://github.com/nicoleyang14/special-topics](https://github.com/nicoleyang14/special-topics)
+
+Thank you for your interest in our project. At this time, it is in the early stages of development. Please return later for more information!
 
 <html>
   <head>
@@ -39,3 +45,22 @@ filename: Map.md
     <div id="map"></div>
   </body>
 </html>
+
+<h2>Table Visualization Test</h2>
+<table>
+  <tr>
+    <th>C1</th>
+    <th>C1</th>
+    <th>C1</th>
+  </tr>
+  <tr>
+    <td>Test 1</td>
+    <td>Test 2</td>
+    <td>Test 3</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
