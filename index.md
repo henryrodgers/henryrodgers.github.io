@@ -45,6 +45,8 @@ Thank you for your interest in our project. At this time, it is in the early sta
   <tr>
     <th>C1</th>
     <th>C1</th>
+  </tr>
+  <tr>
     <td>Publisher</td>
     <td>Centers for Disease Control and Prevention</td>
   </tr>
