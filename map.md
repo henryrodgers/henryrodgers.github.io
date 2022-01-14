@@ -1,3 +1,6 @@
+Welcome to the Mapping page of our program! If you would like to return to the homepage, please click [here](https://henryrodgers.github.io).
+
+
 <html>
   <head>
     <meta charset="utf-8">

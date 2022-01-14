@@ -1,3 +1,5 @@
+Welcome to the Table page of our program! If you would like to return to the homepage, please click [here](https://henryrodgers.github.io).
+
 <h2>Table Visualization Test</h2>
 <table>
   <tr>
